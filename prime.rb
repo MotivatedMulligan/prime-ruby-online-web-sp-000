@@ -8,5 +8,5 @@ while n < array
    return false if array <= 1 || array % n == 0
   n += 1
 end
-#return true
+return true
 end
