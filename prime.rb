@@ -5,9 +5,9 @@ def prime?(array)
 #end
 
 n = 2
-while n < num
-  return false if num % n == 0
+while n < array
+  return false if array % n == 0
   n += 1
 end
-true
+return true
 end
